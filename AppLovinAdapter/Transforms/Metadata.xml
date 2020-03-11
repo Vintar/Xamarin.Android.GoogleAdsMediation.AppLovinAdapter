@@ -1,9 +1,3 @@
 ﻿<metadata>
-  <!--
-  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
-  
-  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
-  -->
+  <remove-node path="/api/package[@name='com.google.ads.mediation.applovin']/class[@name='AppLovinMediationAdapter']/method[@name='initialize' and count(parameter)=3 and parameter[1][@type='android.content.Context'] and parameter[2][@type='com.google.android.gms.ads.mediation.InitializationCompleteCallback'] and parameter[3][@type='java.util.List&lt;com.google.android.gms.ads.mediation.MediationConfiguration&gt;']]" />
 </metadata>
