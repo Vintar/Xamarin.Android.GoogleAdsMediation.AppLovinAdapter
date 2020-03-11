@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLovinAdapter", "AppLovinAdapter\AppLovinAdapter.csproj", "{CC90D251-0634-4422-A151-FAECCB7F94CD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{39512F99-D042-40E4-BEE0-1639E45716D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLovinAdapterTest.Droid", "Test\AppLovinAdapterTest.Droid\AppLovinAdapterTest.Droid.csproj", "{04B4B0B1-A44B-4148-BB17-C3D80E80AA40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,18 @@ Global
 		{CC90D251-0634-4422-A151-FAECCB7F94CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC90D251-0634-4422-A151-FAECCB7F94CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC90D251-0634-4422-A151-FAECCB7F94CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04B4B0B1-A44B-4148-BB17-C3D80E80AA40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B4B0B1-A44B-4148-BB17-C3D80E80AA40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B4B0B1-A44B-4148-BB17-C3D80E80AA40}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{04B4B0B1-A44B-4148-BB17-C3D80E80AA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B4B0B1-A44B-4148-BB17-C3D80E80AA40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04B4B0B1-A44B-4148-BB17-C3D80E80AA40}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{04B4B0B1-A44B-4148-BB17-C3D80E80AA40} = {39512F99-D042-40E4-BEE0-1639E45716D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3267DA15-0C48-4F4F-B528-71765A5F6F29}
